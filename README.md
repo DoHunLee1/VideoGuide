@@ -35,6 +35,17 @@ pip install -r requirements.txt
 pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
 ```
 
+## ⏳ Models
+
+|Models|Checkpoints|
+|:---------|:--------|
+|VideoCrafter2|[Hugging Face](https://huggingface.co/VideoCrafter/VideoCrafter2/blob/main/model.ckpt)
+|AnimateDiff|[Hugging Face](https://huggingface.co/guoyww/animatediff/tree/main)
+|RealisticVision|[Hugging Face](https://huggingface.co/ckpt/realistic-vision-v20/blob/main/realisticVisionV20_v20.safetensors)
+|Stable Diffusion v1.5|[Hugging Face](https://huggingface.co/benjamin-paine/stable-diffusion-v1-5/tree/main)
+
+Please refer to the official repositories of [AnimateDiff](https://github.com/guoyww/AnimateDiff) and [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter/tree/main) for detailed explanation and setup guide for each model. We thank them for sharing their impressive work!
+
 ## 🌄 Example
 An example of using **VideoGuide** is provided in the inference.sh code.
 
@@ -52,6 +63,9 @@ If you find our method useful, please cite as below or leave a star to this repo
   url={https://arxiv.org/abs/2410.04364}, 
 }
 ```
+
+## 🤗 Acknowledgements
+We thank the authors of [AnimateDiff](https://github.com/guoyww/AnimateDiff), [VideoCrafter](https://github.com/AILab-CVC/VideoCrafter/tree/main), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) for sharing their awesome work. We also thank the [CivitAI](https://civitai.com/) community for sharing their impressive T2I models!
 
 > [!note]
 > This work is currently in the preprint stage, and there may be some changes to the code.
