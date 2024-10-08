@@ -1,0 +1,13 @@
+diffusers==0.11.1
+numpy==1.26.4
+transformers==4.25.1
+imageio==2.27.0
+safetensors==0.4.4
+pytorch-lightning==2.4.0
+open-clip-torch==2.24.0
+einops
+opencv-python
+decord
+omegaconf
+kornia
+# xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
