@@ -1,4 +1,4 @@
-# VideoGuide: IMPROVING VIDEO DIFFUSION MODELS WITHOUT TRAINING THROUGH A TEACHER'S GUIDE
+# VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide
 
 This repository is the official implementation of [VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](https://arxiv.org/abs/2410.04364), led by
 
