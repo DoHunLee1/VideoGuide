@@ -1,7 +1,7 @@
 name="videoguide"
 
 animatediff_ckpt='../animatediff/models/StableDiffusion/stable-diffusion-v1-5' # Change into your stable-diffusion-v1-5 path
-ckpt='../fifo-diffusion/checkpoints/videocrafter/base_512_v2/model.ckpt' # Change into your videocrafter path
+ckpt='../checkpoints/videocrafter/base_512_v2/model.ckpt' # Change into your videocrafter path
 # config='./animatediff_configs/prompts/v2/v2-1-Film.yaml'
 # config='./animatediff_configs/prompts/v2/v2-1-ToonYou.yaml'
 # config='./animatediff_configs/prompts/v2/v2-1-RealisticVision.yaml'
