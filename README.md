@@ -27,7 +27,12 @@ First, create your environment. We recommend using the following comments.
 ```
 git clone https://github.com/DoHunLee1/VideoGuide.git
 cd VideoGuide
-conda env create -f environment.yaml
+
+conda create -n videoguide python=3.10
+conda activate videoguide
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ## 🌄 Example
