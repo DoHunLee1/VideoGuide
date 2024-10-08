@@ -528,15 +528,20 @@ def main():
 
     method = ["AnimateDiff", "VideoGuide"]
 
-    output = model.inference(
-        prompt=args.prompt, seed=args.seed, height=args.image_resolution, width=args.image_resolution, video_length=args.video_length,
-        cfg_scale=args.cfg_scale, cfg_plus=args.cfg_plus, vc_extra_step=args.vc_extra_step, vc_interp_guide=args.vc_interp_guide, vc_interp_step=args.vc_interp_step, use_vc=args.use_vc, 
-        mode=args.mode
-    )
+    with open(args.prompt, "r") as f:
+        prompt_list = f.read().splitlines()
+    
+    for prompt in prompt_list:
 
-    video = output
-    method_name = method[args.mode]
-    save_videos_grid(video, f"./result/{args.prompt}/{method_name}.gif")
+        output = model.inference(
+            prompt=prompt, seed=args.seed, height=args.image_resolution, width=args.image_resolution, video_length=args.video_length,
+            cfg_scale=args.cfg_scale, cfg_plus=args.cfg_plus, vc_extra_step=args.vc_extra_step, vc_interp_guide=args.vc_interp_guide, vc_interp_step=args.vc_interp_step, use_vc=args.use_vc, 
+            mode=args.mode
+        )
+
+        video = output
+        method_name = method[args.mode]
+        save_videos_grid(video, f"./result/{prompt}/{method_name}.gif")
         
 if __name__ == "__main__":
     main()
