@@ -7,7 +7,7 @@ This repository is the official implementation of [VideoGuide: Improving Video D
 ![main figure](assets/main_fig.png)
 
 [![Project Website](https://img.shields.io/badge/Project-Website-blue)](https://dohunlee1.github.io/videoguide.github.io/)
-[![arXiv](https://img.shields.io/badge/arXiv-2311.18608-b31b1b.svg)](https://arxiv.org/abs/2410.04364)
+[![arXiv](https://img.shields.io/badge/arXiv-2410.04364-b31b1b.svg)](https://arxiv.org/abs/2410.04364)
 
 ---
 ## 🔥 Summary
