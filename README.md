@@ -53,14 +53,11 @@ An example of using **VideoGuide** is provided in the inference.sh code.
 If you find our method useful, please cite as below or leave a star to this repository.
 
 ```
-@misc{lee2024videoguideimprovingvideodiffusion,
-  title={VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide}, 
-  author={Dohun Lee and Bryan S Kim and Geon Yeong Park and Jong Chul Ye},
-  year={2024},
-  eprint={2410.04364},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2410.04364}, 
+@article{lee2024videoguide,
+  title={VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide},
+  author={Lee, Dohun and Kim, Bryan S and Park, Geon Yeong and Ye, Jong Chul},
+  journal={arXiv preprint arXiv:2410.04364},
+  year={2024}
 }
 ```
 
