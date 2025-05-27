@@ -1,8 +1,8 @@
-# VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide
+# [CVPR2025] VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide
 
 This repository is the official implementation of [VideoGuide: Improving Video Diffusion Models without Training Through a Teacher's Guide](https://arxiv.org/abs/2410.04364), led by
 
-[Dohun Lee*](https://github.com/DoHunLee1), [Bryan S Kim*](https://scholar.google.com/citations?user=ndWU-84AAAAJ&hl=en), [Geon Yeong Park](https://geonyeong-park.github.io/), [Jong Chul Ye](https://bispl.weebly.com/professor.html)
+[Dohun Lee*](https://github.com/DoHunLee1), [Bryan Sangwoo Kim*](https://scholar.google.com/citations?user=ndWU-84AAAAJ&hl=en), [Geon Yeong Park](https://geonyeong-park.github.io/), [Jong Chul Ye](https://bispl.weebly.com/professor.html)
 
 ![main figure](assets/main_fig.png)
 
